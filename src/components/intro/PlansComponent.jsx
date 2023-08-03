@@ -37,13 +37,13 @@ const PlansComponent = () => {
     </svg>
   );
   const WeightLossIcon = (props) => (
-    <Icon style={{marginBottom:50}} component={WeightLossSvg} {...props} />
+    <Icon style={{ marginBottom: 50 }} component={WeightLossSvg} {...props} />
   );
   const BodybuildingIcon = (props) => (
-    <Icon style={{marginBottom:50}} component={BodybuildingSvg} {...props} />
+    <Icon style={{ marginBottom: 50 }} component={BodybuildingSvg} {...props} />
   );
   const CyclingIcon = (props) => (
-  <Icon style={{marginBottom:50}} component={CyclingSvg} {...props} />
+    <Icon style={{ marginBottom: 50 }} component={CyclingSvg} {...props} />
   );
   return (
     <div className="plans">
@@ -53,15 +53,15 @@ const PlansComponent = () => {
       <Row
         justify="center"
         align="middle"
-        style={{ alignItems: "center", textAlign: "center" }}
+        style={{ alignItems: "center", textAlign: "center", marginTop: '130px', marginBottom: '130px' }}
         gutter={12}
       >
         <Col span={6}>
           <Card bordered={false}>
             <WeightLossIcon />
-            <p style={{fontSize:32}}>WEIGHT LOSS</p>
+            <p style={{ fontSize: 32 }}>WEIGHT LOSS</p>
             <Divider style={{ borderColor: "black" }}></Divider>
-            <p>More Info <span style={{marginLeft:100}}><ArrowRightOutlined /></span></p>
+            <p>More Info <span style={{ marginLeft: 100 }}><ArrowRightOutlined /></span></p>
           </Card>
         </Col>
         <Col span={6}>
@@ -75,52 +75,53 @@ const PlansComponent = () => {
             }}
           >
             <BodybuildingIcon></BodybuildingIcon>
-            <p style={{fontSize:32}}>BODYBUILDING</p>
+            <p style={{ fontSize: 32 }}>BODYBUILDING</p>
             <Divider style={{ borderColor: "black" }}></Divider>
-            <p>More Info <span style={{marginLeft:100}}><ArrowRightOutlined /></span></p>
+            <p>More Info <span style={{ marginLeft: 100 }}><ArrowRightOutlined /></span></p>
           </Card>
         </Col>
         <Col span={6}>
-          <Card bordered={false} style={{ backgroundColor: "transparent" }}>
+          <Card bordered={false} style={{ }}>
             <CyclingIcon></CyclingIcon>
-            <p style={{fontSize:32}}>CYCLING</p>
+            <p style={{ fontSize: 32 }}>CYCLING</p>
             <Divider style={{ borderColor: "black" }}></Divider>
-            <p>More Info <span style={{marginLeft:100}}><ArrowRightOutlined /></span></p>
+            <p>More Info <span style={{ marginLeft: 100 }}><ArrowRightOutlined /></span></p>
           </Card>
         </Col>
       </Row>
       <Divider orientation="left" style={{ fontSize: 40 }}>
         Subscribe To Plans
       </Divider>
-      <Row 
-      justify="center"
+      <Row
+        justify="center"
         align="middle"
         style={{ alignItems: "center", textAlign: "center" }}
-        gutter={150}>
+        gutter={100}
+        >
         <Col span={6}>
-        <Card style={{backgroundImage: 'linear-gradient(rgba(57, 57, 57, 0.25), rgba(57, 57, 57, 0))'}}> 
-            <h3 style={{fontSize:24, marginBottom:10}}>WEIGHT LOSS</h3>
-            <p style={{marginBottom:30}}>Plan Exp. 16/11/2024</p>
-            <p style={{marginBottom:10, fontSize:24}}>$1200 <span style={{color:"gray", fontSize:14}}>/Month</span></p>
-            <p style={{marginBottom:10}}>Streaming</p>
+          <Card style={{ backgroundImage: 'linear-gradient(rgba(57, 57, 57, 0.25), rgba(57, 57, 57, 0))' }}>
+            <h3 style={{ fontSize: 24, marginBottom: 10 }}>WEIGHT LOSS</h3>
+            <p style={{ marginBottom: 30 }}>Plan Exp. 16/11/2024</p>
+            <p style={{ marginBottom: 10, fontSize: 24 }}>$1200 <span style={{ color: "gray", fontSize: 14 }}>/Month</span></p>
+            <p style={{ marginBottom: 10 }}>Streaming</p>
             <Button block>Select Plan</Button>
           </Card>
         </Col>
         <Col span={6}>
-        <Card style={{backgroundImage: 'linear-gradient(rgba(57, 57, 57, 0.25), rgba(57, 57, 57, 0))'}}> 
-            <h3 style={{fontSize:24, marginBottom:10}}>WEIGHT LOSS</h3>
-            <p style={{marginBottom:30}}>Plan Exp. 16/11/2024</p>
-            <p style={{marginBottom:10, fontSize:24}}>$1200 <span style={{color:"gray", fontSize:14}}>/Month</span></p>
-            <p style={{marginBottom:10}}>Streaming</p>
+          <Card style={{ backgroundImage: 'linear-gradient(rgba(57, 57, 57, 0.25), rgba(57, 57, 57, 0))' }}>
+            <h3 style={{ fontSize: 24, marginBottom: 10 }}>WEIGHT LOSS</h3>
+            <p style={{ marginBottom: 30 }}>Plan Exp. 16/11/2024</p>
+            <p style={{ marginBottom: 10, fontSize: 24 }}>$1200 <span style={{ color: "gray", fontSize: 14 }}>/Month</span></p>
+            <p style={{ marginBottom: 10 }}>Streaming</p>
             <Button block>Select Plan</Button>
           </Card>
         </Col>
         <Col span={6}>
-        <Card style={{backgroundImage: 'linear-gradient(rgba(57, 57, 57, 0.25), rgba(57, 57, 57, 0))'}}> 
-            <h3 style={{fontSize:24, marginBottom:10}}>WEIGHT LOSS</h3>
-            <p style={{marginBottom:30}}>Plan Exp. 16/11/2024</p>
-            <p style={{marginBottom:10, fontSize:24}}>$1200 <span style={{color:"gray", fontSize:14}}>/Month</span></p>
-            <p style={{marginBottom:10}}>Streaming</p>
+          <Card style={{ backgroundImage: 'linear-gradient(rgba(57, 57, 57, 0.25), rgba(57, 57, 57, 0))' }}>
+            <h3 style={{ fontSize: 24, marginBottom: 10 }}>WEIGHT LOSS</h3>
+            <p style={{ marginBottom: 30 }}>Plan Exp. 16/11/2024</p>
+            <p style={{ marginBottom: 10, fontSize: 24 }}>$1200 <span style={{ color: "gray", fontSize: 14 }}>/Month</span></p>
+            <p style={{ marginBottom: 10 }}>Streaming</p>
             <Button block>Select Plan</Button>
           </Card>
         </Col>

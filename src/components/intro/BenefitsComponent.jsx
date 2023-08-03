@@ -2,7 +2,7 @@ import { Button, Card, Col, Row, Tag } from "antd";
 import Logo from "../../assets/Logo.png"
 const BenefitsComponent = () => {
     return (
-        <div style={{marginTop:20}}>
+        <div style={{marginTop: '130px', marginBottom: '30px'}}>
             <Row justify="center" style={{marginBottom:20}}>
                 <Col span={8} style={{fontSize:40}}>Why Join With Us?</Col>
                 <Col span={8}>
@@ -17,7 +17,7 @@ const BenefitsComponent = () => {
                 </Card>
                 </Col>
             </Row>
-            <Row gutter={12} justify="center" >
+            <Row gutter={12} justify="center" style={{marginTop: '130px'}}>
                 <Col span={4}>
                 <img src={Logo} alt="" />
                 <h2>Support Your Need To Much Fitness Goal</h2>    

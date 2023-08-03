@@ -70,7 +70,7 @@ const HeaderComponents = () => {
     }
     return (
         <>
-            <Row style={{}}>
+            <Row style={{width: '100%'}}>
                 <Col span={12}>
                     <img src={logo} alt="" style={{marginLeft: '170px', marginTop: '12px'}}/>
                 </Col>

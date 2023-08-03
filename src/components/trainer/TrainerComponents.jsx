@@ -2,7 +2,7 @@ import { Card, Carousel, Col, Row } from "antd";
 import image1 from "../../assets/Rectangle 8.png";
 import image2 from "../../assets/Rectangle 9.png";
 import image3 from "../../assets/Rectangle 10.png";
-import "./homePage.css";
+import "../homePage.css";
 const TrainerComponents = () => {
     const onChange = (currentSlide) => {
         console.log(currentSlide);
@@ -52,7 +52,7 @@ const TrainerComponents = () => {
     }
 
     return (
-        <div>
+        <div style={{marginTop: '130px', marginBottom: '130px'}}>
             <h6
                 style={{
                     fontSize: "60px",
