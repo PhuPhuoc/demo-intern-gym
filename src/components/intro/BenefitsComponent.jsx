@@ -1,4 +1,4 @@
-import { Button, Card, Col, Row, Tag } from "antd";
+import { Button, Col, Row, Tag } from "antd";
 import Logo from "../../assets/Logo.png"
 const BenefitsComponent = () => {
     return (
@@ -6,21 +6,21 @@ const BenefitsComponent = () => {
             <Row justify="center" style={{marginBottom:20}}>
                 <Col span={8} style={{fontSize:40}}>Why Join With Us?</Col>
                 <Col span={8}>
-                <Card>
+                <div style={{ backgroundColor: 'transparent'}}>
                     <ul>
-                        <li style={{fontSize:24}}>Best Gym</li>
-                        <li style={{fontSize:24}}>Experts Coach</li>
-                        <li style={{fontSize:24}}>Good Workout Facilities</li>
-                        <li style={{fontSize:24}}>Consultation With Experts</li>
+                        <li style={{fontSize:24, margin:'20px'}}>Best Gym</li>
+                        <li style={{fontSize:24, margin:'20px'}}>Experts Coach</li>
+                        <li style={{fontSize:24, margin:'20px'}}>Good Workout Facilities</li>
+                        <li style={{fontSize:24, margin:'20px'}}>Consultation With Experts</li>
                         <Button type="primary" style={{borderRadius:0, marginTop:30}}>See More Benefits</Button>
                     </ul>
-                </Card>
+                </div>
                 </Col>
             </Row>
             <Row gutter={12} justify="center" style={{marginTop: '130px'}}>
                 <Col span={4}>
-                <img src={Logo} alt="" />
-                <h2>Support Your Need To Much Fitness Goal</h2>    
+                <img src={Logo} alt="" style={{marginBottom: '20px'}}/>
+                <h2 style={{paddingRight: '40px'}}>Support Your Need To Much Fitness Goal</h2>    
                 </Col>
                 <Col span={4}>
                     <ul>
