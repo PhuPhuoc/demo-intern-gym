@@ -1,0 +1,7 @@
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected {
+    color: #0561e3;
+}  
+
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected::after {
+    /* border-bottom-color: rgb(217, 66, 11); */
+}  
